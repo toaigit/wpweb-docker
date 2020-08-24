@@ -1,0 +1,4 @@
+#!/bin/bash
+cd $HOME/wpweb-docker
+docker build -t wpress542 -f Dockerfile.wpweb .
+
