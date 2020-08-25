@@ -7,7 +7,7 @@ services:
     container_name: wpweb
     restart: always
     ports:
-      - {{.Env.HOST_PORT}}:80
+      - 80:80
     environment:
       WORDPRESS_DB_HOST: wpdb1.local.io:3306
       WORDPRESS_DB_USER: wordpress
